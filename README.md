@@ -4,7 +4,7 @@ A simple Instagram analytics tool that continuously logs and graphs your followe
 
 ## Themes
 
-####Default
+#### Default
 ![default theme](https://cloud.githubusercontent.com/assets/6676674/14550091/cdf47d92-0293-11e6-9e67-c54a1736ef24.png)
 
 #### Dark
@@ -58,6 +58,14 @@ Sample data will keep being displayed until `cron.php` is first ran. Once ran it
 `Time,Grams,Followers,Following`
 
 \* _Grams_ represents the number of photos on your account at the time
+
+## To Do
+
+- [X] Create simple theme template system.
+- [ ] Add pre-loader.
+- [ ] Create install script for easier setup.
+- [ ] Possibly break up log files into months or weeks for shorter graph load times.
+- [ ] Live update graph.
 
 ## Creators
 
